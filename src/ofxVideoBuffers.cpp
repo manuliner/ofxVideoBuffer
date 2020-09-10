@@ -227,7 +227,7 @@ void ofxVideoBuffers::setFadeAmount(int howManyFramesToFade)
 //--------------------------------------------------------------
 bool ofxVideoBuffers::isEmpty()
 {
-
+    return buffer.empty();
 
 }
 //--------------------------------------------------------------
